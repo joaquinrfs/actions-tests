@@ -1,0 +1,10 @@
+name: TypeScript Build
+
+on:
+  push:
+    branches: [main]
+jobs:
+  steps:
+    - run: echo "Building"
+    - run: ls
+    - run: pwd
