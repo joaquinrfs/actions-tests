@@ -4,8 +4,9 @@ on:
   push:
     branches: [main]
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - run: echo "Building"
-    - run: ls
-    - run: pwd
+  Build-TypeScript:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Building"
+      - run: ls
+      - run: pwd
